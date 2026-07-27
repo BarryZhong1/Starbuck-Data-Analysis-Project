@@ -1,0 +1,15 @@
+metric_name,metric_value,status,notes
+clean_portfolio_rows,10,PASS,Offers retained after validation.
+clean_profile_rows,17000,PASS,Customer profiles retained after validation.
+clean_transcript_rows,306534,PASS,Events retained after validation.
+exact_duplicate_events,397,WARNING,Repeated events retained with a flag and excluded from the deduplicated view.
+hard_validation_errors,0,PASS,Rows or values that failed a required validation rule.
+offer_exposure_rows,76277,PASS,One sequence-aware analytical row per deduplicated offer-received event.
+offer_exposure_sequence_errors,0,PASS,Exposure outcomes must follow receipt/view order and remain within validity.
+offer_rates_over_one,0,PASS,Sequence-aware offer rates must stay between zero and one.
+orphan_customer_events,0,PASS,Clean events without a matching customer.
+orphan_offer_events,0,PASS,Offer-linked clean events without a matching offer.
+profiles_with_imputation,2175,WARNING,Profiles with unknown gender and/or median-imputed age or income.
+raw_portfolio_rows,10,PASS,Rows loaded from portfolio.csv.
+raw_profile_rows,17000,PASS,Rows loaded from profile.csv.
+raw_transcript_rows,306534,PASS,Rows loaded from transcript.csv.

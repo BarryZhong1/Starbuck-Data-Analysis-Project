@@ -1,0 +1,11 @@
+,person,event,value,time
+0,cccccccccccccccccccccccccccccccc,offer received,{'offer id': 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'},0
+1,cccccccccccccccccccccccccccccccc,offer viewed,{'offer id': 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'},2
+2,cccccccccccccccccccccccccccccccc,transaction,{'amount': 12.5},4
+3,cccccccccccccccccccccccccccccccc,offer completed,"{'offer_id': 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'reward': 10}",5
+4,cccccccccccccccccccccccccccccccc,offer completed,"{'offer_id': 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'reward': 10}",5
+5,dddddddddddddddddddddddddddddddd,offer received,{'offer id': 'bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'},0
+6,dddddddddddddddddddddddddddddddd,offer viewed,{'offer id': 'bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'},1
+7,eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee,transaction,{'amount': 5.0},0
+8,cccccccccccccccccccccccccccccccc,offer received,{'offer id': 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'},240
+9,cccccccccccccccccccccccccccccccc,offer completed,"{'offer_id': 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'reward': 10}",241

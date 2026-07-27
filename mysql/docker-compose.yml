@@ -1,0 +1,27 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: starbucks-sql-portfolio-mysql
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-starbucks_analytics}
+      MYSQL_USER: ${MYSQL_USER:?Set MYSQL_USER in mysql/.env}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?Set MYSQL_PASSWORD in mysql/.env}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Set MYSQL_ROOT_PASSWORD in mysql/.env}
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./init:/docker-entrypoint-initdb.d:ro
+      - ../output:/var/lib/mysql-files:ro
+      - starbucks_mysql_data:/var/lib/mysql
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "mysqladmin ping -h 127.0.0.1 -uroot -p\"$${MYSQL_ROOT_PASSWORD}\" --silent",
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+volumes:
+  starbucks_mysql_data:

@@ -1,0 +1,11 @@
+offer_id,offer_type,offer_type_label,reward,difficulty,duration_days,channel_web,channel_email,channel_mobile,channel_social,received_count,viewed_count,completed_in_window_count,completed_after_view_count,completed_without_prior_view_count,view_rate,qualified_completion_rate_from_received,qualified_completion_rate_from_viewed
+fafdcd668e3743c1bb461111dcafc2a4,discount,Discount,2,10,10,1,1,1,1,7597,7327,5230,4586,644,0.9645,0.6037,0.6259
+2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount,3,7,7,1,1,1,1,7646,7330,5102,4350,752,0.9587,0.5689,0.5935
+4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,BOGO,10,10,5,1,1,1,1,7593,7235,3301,2739,562,0.9529,0.3607,0.3786
+f19421c1d4aa40978ebb69ca19b0e20d,bogo,BOGO,5,5,5,1,1,1,1,7571,7208,4262,3514,748,0.9521,0.4641,0.4875
+ae264e3637204a6fb9bb56bc8210ddfd,bogo,BOGO,10,10,7,0,1,1,1,7658,6679,3635,2582,1053,0.8722,0.3372,0.3866
+5a8bc65990b245e5a138643cd4eb9837,informational,Informational,0,0,3,0,1,1,1,7618,6149,0,0,0,0.8072,0.0,0.0
+9b98b8c7a33c4b65b9aebfe6a799e6d9,bogo,BOGO,5,5,7,1,1,1,0,7677,4128,4303,2106,2197,0.5377,0.2743,0.5102
+2906b810c7d4411798c6938adc9daaa5,discount,Discount,2,10,7,1,1,1,0,7632,4061,3955,2102,1853,0.5321,0.2754,0.5176
+3f207df678b143eea3cee63160fa8bed,informational,Informational,0,0,4,1,1,1,0,7617,3798,0,0,0,0.4986,0.0,0.0
+0b1e1539f2cc45b7b9fa7c272da2e1d7,discount,Discount,5,20,10,1,1,0,0,7668,2652,3313,1303,2010,0.3459,0.1699,0.4913
